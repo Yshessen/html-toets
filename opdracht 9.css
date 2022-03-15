@@ -1,0 +1,91 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 285px;
+height: 542px;
+margin: auto;
+margin-top: 10.52%;
+border: 4px black solid;
+}
+
+    
+
+.grida {
+    background-color: rgba(11, 48, 129, 0.8);
+  width: 75%;
+  height: 300%;
+    padding: 2px;
+    font-size: 30px;
+    
+  }
+  
+  .gridb {
+      background-color: rgba(25, 129, 11, 0.8);
+      width: 22.5%;
+      height: 645%;
+      padding: 2px;
+      font-size: 30px;
+      margin-left: 220px;
+      margin-top: -71px;
+   
+    }
+    
+    .gridc {
+      background-color: rgba(255, 0, 0, 0.8);
+      width: 80px;
+      padding: 2px;
+      font-size: 30px;
+      margin-top: 123px;
+      height: 110%;
+    margin-bottom: -60px;
+      
+    }
+    .gridd {
+      background-color: rgba(11, 48, 129, 0.8);
+  ;
+      padding: 2px;
+      font-size: 30px;
+       width: 200px;
+       margin-top: -21px;
+       margin-left: 84px;
+       margin-bottom: 110px;
+       height: 140%;
+    }
+    
+  
+    .gride {
+      background-color: rgba(25, 129, 11, 0.8);
+      width: 30%;
+      height: 126%;
+      padding: 2px;
+      font-size: 30px;
+      margin-left: 29%;
+      margin-top: -2%;
+      margin-right: 200px;
+   
+    }
+    
+    .gridf {
+      background-color: rgba(  11, 48, 129, 0.8);
+      padding: 2px;
+      font-size: 30px;
+      margin-left: 60%;
+      height: 355%;
+      margin-top: -28.5%;
+   
+    }
+  
+    .gridg {
+      background-color: rgba(255, 0, 0, 0.8);
+  
+      padding: 2px;
+      font-size: 30px;
+     width: 20%;
+     margin-top: -18.5%;
+
+    }
+   
+    
+    

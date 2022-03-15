@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #753c77;
+  
+    width: 285px;
+height: 271px;
+margin: auto;
+margin-top: 17.52%;
+border: 4px black solid;
+  }
+
+
+  .flex-container > div {
+    background-color: rgba(11, 48, 129, 0.8);
+    width: 100%;
+    margin: 0px;
+    line-height: 130%;
+    font-size: 30px;
+  }

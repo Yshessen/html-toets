@@ -1,0 +1,92 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+ 
+   padding: 8px;
+    width: 285px;
+height: 271px;
+margin: auto;
+margin-top: 17.52%;
+border: 4px black solid;
+  }
+
+  .flexa{
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(11, 48, 129, 0.8) ;
+  }
+
+  .flexb{
+    background-color: rgba(25, 129, 11, 0.8);;
+    color: black;
+  }
+  .flexg{
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(11, 48, 129, 0.8) ;
+    }
+
+    .flexc{
+      background-color: red;
+    }
+
+  .flex-container > div {
+    width: 100%;
+    line-height: 130%;
+    font-size: 30px;
+  }
+
+
+  @media only screen and (max-height: 650px) {
+    .flex-container{
+      flex-direction: row;
+      height: 150px;
+      margin-top: 10%;
+      flex-wrap: wrap;
+      width: 400px;
+    
+  
+    }
+  .flexa{
+  
+  max-width: 50%;
+  
+  }
+  
+  .flexb{
+    max-width: 50%;
+  }
+  .flexc{
+    max-width: 50%;
+  }
+  
+    }
+
+
+
+    
+  @media only screen and (max-height: 550px)  {
+    .flex-container{
+      flex-direction: row;
+      height: 150px;
+      margin-top: 10%;
+      flex-wrap: wrap;
+      width: 570px;
+  
+    }
+  .flexa{
+  
+  max-width: 33%;
+  
+  }
+  
+  .flexb{
+    max-width: 33%;
+  }
+  .flexc{
+    max-width: 33%;
+  }
+
+  
+    }
+
+    
+  
